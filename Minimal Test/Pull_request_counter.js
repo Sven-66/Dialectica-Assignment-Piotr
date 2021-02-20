@@ -2,7 +2,7 @@
 
 
 describe('Minimal Github Repo Explorer Test', () => {
-    it('Visits the Minimal Github Repo Explorer And tests Star Counter', () => {
+    it('Visits the Minimal Github Repo Explorer And tests Pull Request Counter', () => {
         cy.visit('https://refactored--dia-slender-explorer-qa.netlify.app')
 
         //Find input elements and insert token and repo
